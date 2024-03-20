@@ -31,7 +31,7 @@
 }
 .buttoninFooter{
     margin-left: 10px;
-    
+
 
 }
 .buttoninFooter  button{
@@ -149,4 +149,29 @@
 
 .copyrightfooter {
     text-align: center;
+}
+
+@media(max-width:768px){
+    .footer{
+        padding: 0px 0px;
+    }
+    /* .SearchInFooter{
+        display: flex;
+        margin-top:30px;
+        
+    } */
+    .inputinfoooter input{
+        padding: 8px 16px;
+    }
+    .buttoninFooter{
+        margin-left: 10px;
+    
+    
+    }
+    .buttoninFooter  button{
+        background-color: black;
+        color: white;
+        padding: 8px 35px;
+        border: 1px rgb(100, 100, 100) solid;
+    }
 }

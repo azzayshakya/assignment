@@ -1,6 +1,6 @@
 .home{
     /* margin: 0px 100px; */
-    /* border: 2px red solid; */
+    border: 2px red solid;
 }
 .navbarathome{
     padding: 0px 100px;
@@ -9,12 +9,12 @@
 }
 .bannerathome{
     margin: 0px 100px;
-    /* border: 2px red solid; */
+    border: 2px red solid;
     border-bottom : 1px solid rgb(202, 200, 200);
 }
 .midpartathome{
     margin: 0px 100px;
-    /* border: 2px red solid; */
+    border: 2px red solid;
 }
 @media(max-width:725px){
     
