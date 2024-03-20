@@ -1,0 +1,18 @@
+.banner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bannertagline{
+    text-align: center;
+    font-size: 40px;
+    /* margin-left:10px; */
+    font-size: 500;
+}
+.bannerabout{
+    text-align: center;
+    /* margin-left:40px; */
+    font-size: 18px; 
+}
+.banneraboutbottomp{
+    margin-top: -15px;
+}

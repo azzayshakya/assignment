@@ -1,0 +1,152 @@
+.footer{
+   border: 2px black solid;
+   background-color: black;
+   color: white;
+   padding: 0px 50px;
+
+
+
+}
+.footerTop{
+    display: flex;
+    padding-top: 30px;
+    /* border: 2px red solid; */
+    border-bottom: 2px rgb(184, 181, 181) solid;
+}
+
+.topFooterLeftSide{
+    width: 70%;
+}
+.tf2{
+    font-size: 13px;
+
+}
+.SearchInFooter{
+    display: flex;
+    margin-top:30px;
+    
+}
+.inputinfoooter input{
+    padding: 8px 35px;
+}
+.buttoninFooter{
+    margin-left: 10px;
+    
+
+}
+.buttoninFooter  button{
+    background-color: black;
+    color: white;
+    padding: 8px 35px;
+    border: 1px rgb(100, 100, 100) solid;
+}
+
+.topFooterRightSide p{
+    font-size: 15px;
+    font-weight: 100;
+}
+.topFooterRightSide .contacatusinfooter {
+    font-weight:700;
+    /* z-index: 1; */
+}
+.topFooterRightSide  .currensyinfooter{
+    font-weight:700;
+
+}
+.topFooterRightSide  .aboutTransactionInFooter{
+    font-size: 12px;
+}
+
+.footerBottom{
+    /* border: 2px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomfutterboldline{
+    font-weight: 600;
+    font-size: 15px;
+    z-index: 1;
+    padding-bottom: 15px;
+    /* padding-top: 50px; */
+
+
+  
+}
+
+.leftinbottomfooter{
+    /* border: 2px red solid; */
+    font-size: 14px;
+    font-weight: 200;
+    width: 200px;
+    
+     position: relative;
+     top: -18px;
+     left: 0px;
+
+}
+.leftinbottomfooter p{
+    /* border: 2px red solid; */
+    /* margin: 10px 0px; */
+
+    
+}
+.midinbottomfooter{
+    /* border: 2px red solid; */
+    font-size: 14px;
+    font-weight: 200;
+    width: 200px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.footerBottom .bottomfooterbottomitems{
+    /* border: 2px red solid; */
+    margin: 10px 0px;
+    
+}
+.lastinbottomfooter{
+    /* border: 2px blue solid; */
+    font-size: 14px;
+    font-weight: 200;
+    width: 350px;
+    position: relative;
+    top: -25px;
+    left: -37px;
+}
+.lastinbottomfooter p{
+    /* border: 2px red solid; */
+    margin: 10px 0px;
+    
+}
+.lastinbottomfooter img{
+    /* border: 2px red solid; */
+    width: 50px;
+    height:30px;
+    margin: 0px 3px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+.lastinbottomfooter  .bottomfootericons{
+    display: flex;
+   
+
+}
+
+.lastinbottomfooter  .bottomfootericons p{
+    border: 2px white solid;
+    border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 7PX;
+   
+}
+
+.copyrightfooter {
+    text-align: center;
+}
