@@ -55,7 +55,7 @@ const MidPart = () => {
                 <span onClick={openfilter}>
                     {
                         filter ? 
-                        <div>
+                        <div >
                             <span>SHOW FILTER</span>
                             <span><IoIosArrowDown/></span>
                         </div> :
