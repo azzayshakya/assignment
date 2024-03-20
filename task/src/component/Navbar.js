@@ -59,7 +59,7 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            {/* {
+            {
                 IsOpen && (
                     <div className='togglednavbar'>
                         <ul className='toggledbottomlayer'>
@@ -71,7 +71,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 )
-            } */}
+            }
             
         </div>
        
