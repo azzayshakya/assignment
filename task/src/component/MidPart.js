@@ -116,7 +116,7 @@ const MidPart = () => {
 
     
 
-    const [filter, setfilter] = useState(false)
+    const [filter, setfilter] = useState(true)
     const openfilter=()=>{
         setfilter(!filter);
     }
