@@ -17,6 +17,9 @@
 }
 .navicon2{
     display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
     
 }
 .navmidname{
@@ -66,6 +69,28 @@ align-items: center;
 
 }
 
+.crossicons{
+    font-size: 21px;
+    margin-top: 3px;
+    margin-inline-start: 3px;
+}
+.togglednavbar{
+    position: absolute;
+    top: 80px;
+    left:0;
+    background-color: white;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    
+}
+.togglednavbar ul{
+    list-style-type:none;
+}
+
+.togglednavbar ul li{
+    padding: 10px 0px;
+}
 /* responsive*/
 
 @media (max-width:725px) {
@@ -84,9 +109,9 @@ align-items: center;
     .navicon2{
         display: block;
         font-size: 30px;
-        /* position: relative;
+        position: relative;
         left: 0px;
-        top: 0px; */
+        top: 0px;
         margin-left: 5px;
     }
     .bottomlayer .bottomlayernormal{

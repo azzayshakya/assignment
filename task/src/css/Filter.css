@@ -66,7 +66,8 @@
 .FilterDropdownContent .filterdropdownununsekectall{
     color: rgb(125, 123, 123);
     border-bottom: 1.5px rgb(125, 123, 123) solid;
-    width: 28%;
+    width: 30%;
+
 }
 
 .FilterDropdownContent  .filtercatogery{
@@ -77,3 +78,37 @@
 .FilterDropdownContent  .filtercatogery .filtercatogeryitems{
 margin: 6px 0px;
 }
+@media (max-width:1019px) {
+    .FilterDropdownContent .filterdropdownununsekectall{
+        
+        width: 36%;
+        /* border: 2px red solid; */
+    
+    }
+ 
+    
+}
+@media (max-width:558px) {
+    .FilterDropdownContent .filterdropdownununsekectall{
+        
+        width: 40%;
+        /* border: 2px red solid; */
+    
+    }
+ 
+    
+}
+
+@media (max-width:558px) {
+    .FilterDropdownContent .filterdropdownununsekectall{
+        
+        width: 44%;
+        /* border: 2px red solid; */
+    
+    }
+ 
+    
+}
+
+ 
+    

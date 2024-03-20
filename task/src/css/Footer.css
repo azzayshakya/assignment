@@ -53,6 +53,20 @@
     font-weight:700;
 
 }
+.topFooterRightSide  .usdinfooter{
+    display: flex;
+    align-items: center;
+}
+.topFooterRightSide  .usdinfooter img{
+    height: 30px;
+    width:60px;
+    border-radius: 20px;
+}
+.topFooterRightSide  .usdinfooter .usdinTopFooterRightSide{
+    margin-top: -5px;
+    /* border: 2px red solid; */
+}
+
 .topFooterRightSide  .aboutTransactionInFooter{
     font-size: 12px;
 }

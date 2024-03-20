@@ -9,9 +9,13 @@ import  upi  from "../images/upi.6114ac6.svg";
 import  applepay  from "../images/apple-pay.svg";
 import  mastercard  from "../images/master-card.svg";
 import  paypal  from "../images/paypal.png";
+import  usaflag  from "../images/usaflag.jpg";
+
+
 
 import { MdCameraAlt } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa6";
+import { LuDot } from "react-icons/lu";
 const Footer = () => {
     return <div >
         <div className="footer">
@@ -34,7 +38,7 @@ const Footer = () => {
                 <p>+44 212 321 2211</p>
                 <p className='custmermail'>customer2@mettamuse.com</p>
                 <p className='currensyinfooter'>CURRENCY</p>
-                <p className='usdinfooter'><div className="flag"></div><div className="dot"></div>USD</p>
+                <p className='usdinfooter'><div className="flag"><img src={usaflag} alt="" /></div><div className="dot"><LuDot/></div><div className='usdinTopFooterRightSide'>USD</div></p>
                 <p className='aboutTransactionInFooter'>Transactions will be completed in Euros and a currency reference is available on hover.</p>
                 
             </div>
