@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/Footer.css'
+
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 // import {gpay} from '../images/google-pay.svg'
 import  gpay  from "../images/google-pay.svg";
 import  razorpay  from "../images/razorpay.6e46f6f.svg";
@@ -30,9 +32,9 @@ const Footer = () => {
             <div className="topFooterRightSide">
                 <p className='contacatusinfooter'>CONTACT US</p>
                 <p>+44 212 321 2211</p>
-                <p>customer2@mettamuse.com</p>
+                <p className='custmermail'>customer2@mettamuse.com</p>
                 <p className='currensyinfooter'>CURRENCY</p>
-                <p><div className="flag"></div><div className="dot"></div>USD</p>
+                <p className='usdinfooter'><div className="flag"></div><div className="dot"></div>USD</p>
                 <p className='aboutTransactionInFooter'>Transactions will be completed in Euros and a currency reference is available on hover.</p>
                 
             </div>
@@ -43,7 +45,7 @@ const Footer = () => {
  
         <div className="leftinbottomfooter">
 
-        <p className='bottomfutterboldline activebottomfutter'>mettā muse</p>
+        <p className='bottomfutterboldline resinfooter activebottomfutter'><span>mettā muse </span> <span  className='bottomfutterdownarrow'><MdOutlineKeyboardArrowDown/></span></p>
             <p className='bottomfooterbottomitems'>About Us</p>
             <p className='bottomfooterbottomitems'>Stories</p>
             <p className='bottomfooterbottomitems'>Artisans</p>
@@ -56,7 +58,7 @@ const Footer = () => {
 
         <div className="midinbottomfooter">
 
-        <p className='bottomfutterboldline'>Quick Links</p>
+        <p className='bottomfutterboldline resinfooter resinfooter2'><span>Quick Links </span> <span className='bottomfutterdownarrow'><MdOutlineKeyboardArrowDown/></span></p>
             <p className='bottomfooterbottomitems'>Orders & Shipping</p>
             <p className='bottomfooterbottomitems'>Join/Login as a Seller</p>
             <p className='bottomfooterbottomitems'>Payment & Pricing</p>

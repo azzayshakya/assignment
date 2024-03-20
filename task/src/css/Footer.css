@@ -73,6 +73,9 @@
 
   
 }
+.bottomfutterdownarrow{
+    display: none;
+}
 
 .leftinbottomfooter{
     /* border: 2px red solid; */
@@ -107,7 +110,7 @@
     
 }
 .lastinbottomfooter{
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     font-size: 14px;
     font-weight: 200;
     width: 350px;
@@ -179,6 +182,8 @@
 
     }
 }
+
+
 @media(max-width:869px){
     .inputinfoooter input{
         padding: 8px 8px;
@@ -188,7 +193,7 @@
         padding: 8px 15px;
     }
     .footerTop{
-        border: 2px red solid;
+        /* border: 2px red solid; */
         
     }
     .topFooterRightSide{
@@ -222,18 +227,66 @@
     }
     .footerBottom{
         flex-direction: column;
+        /* border: 2px red solid; */
+        align-items: flex-start;
        
 
+    }  
+    .resinfooter{
+        /* width: 350px; */
+        /* width: 250%; */
+        /* min-width: auto; */
+        margin-top: 35px;
+        /* border: 2px red solid;    */
+        /* width: 100%; */
+        /* border-bottom:1px rgb(193, 192, 192) solid ; */
+
     }
-    .lastinbottomfooter{
-        /* position: relative; */
-        /* top: -25px;
-        left: -37px; */
+    .resinfooter2{
+     margin-top:-10px;
     }
 
 }
+
+
+
 @media (max-width:541px) {
-    .footer{
-        padding: 0px 0px;
+     .footer{
+        padding: 0px 0px 0px 10px;
+    }
+   .topFooterRightSide .custmermail{
+    
+        position: relative;
+        top: -36px;
+        left: 150px;
+        margin-bottom: -30px;
+        max-width: 200px;
+
+    }
+    .currensyinfooter{
+        padding-top: 15px;
+        border-top:1px rgb(193, 192, 192) solid ;
+    }
+    .aboutTransactionInFooter{
+        display: none;
+    }
+    
+    .bottomfooterbottomitems{
+        display: none;
+    }
+    .bottomfutterdownarrow{
+        display: block;
+        float: right;
+        font-size: 30px;
+        margin-top: -10px;
+        /* border: ; */
+    }
+    .resinfooter{
+        /* width: 220%; */
+        border-bottom:1px rgb(193, 192, 192) solid ;
+
+    }
+    .lastinbottomfooter img{
+        /* border: 2px red solid; */
     }
 }
