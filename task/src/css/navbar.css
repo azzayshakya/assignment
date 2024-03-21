@@ -91,7 +91,7 @@ align-items: center;
 .togglednavbar ul li{
     padding: 10px 0px;
 }
-/* responsive*/
+
 
 @media (max-width:725px) {
     .links .usericon{
@@ -140,7 +140,6 @@ align-items: center;
         
     }
     .forResponsiveNavbar .ResponsiveNavShop{
-        /* margin-left: -90px; */
         color: rgb(175, 176, 177);
         border-right: 1px solid  rgb(175, 176, 177);
         padding-right: 6px;

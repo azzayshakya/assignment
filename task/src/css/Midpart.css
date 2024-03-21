@@ -46,8 +46,8 @@ margin-left: auto;
   right: 0; 
   background-color: #fff; 
   /* border: 1px solid #ccc; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add shadow */
-  z-index: 1; /* Ensure dropdown is above other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  z-index: 1; 
   padding: 8px 15px; 
 }
 

@@ -104,7 +104,6 @@
 }
 .leftinbottomfooter p{
     /* border: 2px red solid; */
-    /* margin: 10px 0px; */
 
     
 }
@@ -247,14 +246,7 @@
 
     }  
     .resinfooter{
-        /* width: 350px; */
-        /* width: 250%; */
-        /* min-width: auto; */
         margin-top: 35px;
-        /* border: 2px red solid;    */
-        /* width: 100%; */
-        /* border-bottom:1px rgb(193, 192, 192) solid ; */
-
     }
     .resinfooter2{
      margin-top:-10px;
@@ -296,7 +288,6 @@
         /* border: ; */
     }
     .resinfooter{
-        /* width: 220%; */
         border-bottom:1px rgb(193, 192, 192) solid ;
 
     }

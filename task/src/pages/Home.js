@@ -8,16 +8,14 @@ import Footer from '../component/Footer';
 const Home = () => {
     return <div>
         <div className="home">
+            
             <div className="navbarathome">
-        <Navbar/>
-
-
+                <Navbar/>
             </div>
             <div className="bannerathome">
-        <Banner/>
-
-
+                <Banner/>
             </div>
+
             <div className="midpartathome">
                 <MidPart/>
             </div>

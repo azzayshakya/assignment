@@ -158,7 +158,6 @@ const Filter = () => {
                         <div className='filtercatogeryitems'><span className='filterRadiobutton'><input type="checkbox" className='radiobutton' name="filterOption" /></span><span>Men</span></div>
                         <div className='filtercatogeryitems'><span className='filterRadiobutton'><input type="checkbox" className='radiobutton' name="filterOption" /></span><span>Women</span></div>
                         <div className='filtercatogeryitems'><span className='filterRadiobutton'><input type="checkbox" className='radiobutton' name="filterOption" /></span><span>Baby & Kids</span></div>
-
                         </div>
                       
                         
