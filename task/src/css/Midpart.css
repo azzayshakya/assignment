@@ -114,40 +114,48 @@ right: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* border: 2px blue solid; */
 }
 
 .cardabout{
     display: flex;
     font-size: 12px;
-}
-
-
-.heart{
     /* border: 2px red solid; */
-    height: 20px ;
-    height: 20px;
-    cursor: pointer;
-
-}
-.whiteheart{
-    /* border: 2px red solid; */
-    font-size: 16px;
-
-}
-.redheart{
-    height: 10px;
-    width: 16px;
-    padding-left: 2px;
-}
-.redheart img{
-    /* border: 2px red solid; */
-    height: 13px;
-    width: 13px;
-
-   
-   
 }
 
+@keyframes popUp {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3); /* Heart pops up */
+    }
+    100% {
+      transform: scale(1); /* Returns to normal size */
+    }
+  }
+  
+  .heart {
+      height: 20px;
+      cursor: pointer;
+      margin-top: -2px;
+  }
+  
+  .whiteheart, .redheart {
+      font-size: 19px;
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  .redheart {
+      color: red;
+      animation: popUp 0.3s ease-out; /* Apply animation when redheart is active */
+  }
+  
+  .redheart img {
+      height: 13px;
+      width: 13px;
+  }
+  
 @media(max-width:520px){
 
     .card{
