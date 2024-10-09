@@ -7,8 +7,6 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { BsFlower2 } from "react-icons/bs";
 import { IoMdMenu } from "react-icons/io";
-
-
 import { FaBars } from "react-icons/fa6";
 import { ImCross } from "react-icons/im";
 import { GiCrossFlare } from "react-icons/gi";

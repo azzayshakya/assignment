@@ -72,6 +72,8 @@ right: 5px;
 .cardsside{
     /* border: 2px red solid; */
     display: flex;
+    margin-top: -30px;
+
 }
 .leftpart{
     /* border: 2px black solid; */
@@ -96,7 +98,7 @@ right: 5px;
 }
 
 .card {
-    /* Card styling */
+   
     height: 300px;
     width: 250px;
     margin-bottom: 50px;
@@ -104,20 +106,16 @@ right: 5px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    cursor: pointer; /* Add a pointer cursor */
+    cursor: pointer;
 }
 
-/* Pop-up effect on hover */
+
 .card:hover {
-    transform: translateY(-10px); /* Moves the card up by 10px */
-    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 8px; /* Creates a stronger shadow */
+    transform: translateY(-10px); 
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 8px; 
 }
 
-/* Pop-up effect on click */
-.card:active {
-    transform: scale(1.05); /* Slightly enlarges the card */
-    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 12px; /* Increases shadow depth */
-}
+
 
 .card img{
 
@@ -178,10 +176,10 @@ right: 5px;
       transform: scale(1);
     }
     50% {
-      transform: scale(1.3); /* Heart pops up */
+      transform: scale(1.3); 
     }
     100% {
-      transform: scale(1); /* Returns to normal size */
+      transform: scale(1); 
     }
   }
   
@@ -198,7 +196,7 @@ right: 5px;
   
   .redheart {
       color: red;
-      animation: popUp 0.3s ease-out; /* Apply animation when redheart is active */
+      animation: popUp 0.3s ease-out; 
   }
   
   .redheart img {
@@ -217,8 +215,8 @@ right: 5px;
 }
 
 .spinner {
-    border: 8px solid #f3f3f3; /* Light grey */
-    border-top: 8px solid #3498db; /* Blue */
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3498db;
     border-radius: 50%;
     width: 40px;
     height: 40px;

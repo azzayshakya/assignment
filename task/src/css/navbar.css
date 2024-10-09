@@ -10,17 +10,25 @@
 .navbariconside{
     display: flex;
     align-items: center;
+    /* border: 1px blue solid; */
+    justify-content: center;
+    padding-top: 4px;
+    
 }
 .navicon{
-    /* margin-left:7%; */
-    font-size: 25px;
+    margin-left:7%;
+    font-size: 20px;
+    /* border: 2px red solid; */
+    /* padding-top: 4px; */
 
 }
 .navicon2{
     display: none;
-    width: 30px;
+    /* width: 30px;
     height: 30px;
-    margin-top: -10px;
+    margin-top: 0px; */
+    /* border: 2px red solid; */
+
     
 }
 .navmidname{
@@ -71,9 +79,10 @@ align-items: center;
 }
 
 .crossicons{
-    font-size: 21px;
+    font-size: 20px;
+    /* font-size: 21px;
     margin-top: 3px;
-    margin-inline-start: 3px;
+    margin-inline-start: 3px; */
 }
 .togglednavbar{
     position: absolute;
@@ -106,14 +115,16 @@ align-items: center;
     }
     .navbariconside{
         margin-left: 23px;
+        /* border: 2px red solid; */
     }
     .navicon2{
         display: block;
-        font-size: 30px;
-        position: relative;
+        font-size: 20px;
+        /* position: relative;
         left: 0px;
         top: 0px;
-        margin-left: 5px;
+        margin-left: 5px; */
+        /* border: 2px red solid; */
     }
     .bottomlayer .bottomlayernormal{
         display: none;

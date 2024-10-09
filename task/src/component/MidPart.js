@@ -9,7 +9,7 @@ import { FaCheck } from "react-icons/fa6";
 
 import '../css/Midpart.css';
 // Import images if you need them for other purposes or use images from the API
-import redheart from "../images/red heart.png";
+// import redheart from "../images/red heart.png";
 import { IoIosHeart } from "react-icons/io";
 
 const MidPart = () => {
@@ -79,7 +79,7 @@ const MidPart = () => {
             <div className='cardsside'>
                 {filter ?
                     <div>
-                        {/* Additional UI or components can go here */}
+                        
                     </div>
                     :
                     <div className="leftpart">
