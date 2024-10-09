@@ -8,6 +8,7 @@
   
     width: 100%;
     position: relative;
+    margin-bottom: 50px;
 }
 .itemsnumber{
     font-weight: 500;
@@ -75,39 +76,79 @@ right: 5px;
 .leftpart{
     /* border: 2px black solid; */
     width:400px;
+   
 }
 .rightpart{
     /* border: 2px blue solid; */
     width:100%;
 }
+
 .rightpartcards{
 
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+
     flex-wrap: wrap;
+    /* border: 2px red solid; */
 
 }
 
-.card{
-    /* border: 2px red solid; */
+.card {
+    /* Card styling */
     height: 300px;
     width: 250px;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer; /* Add a pointer cursor */
 }
+
+/* Pop-up effect on hover */
+.card:hover {
+    transform: translateY(-10px); /* Moves the card up by 10px */
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 8px; /* Creates a stronger shadow */
+}
+
+/* Pop-up effect on click */
+.card:active {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 12px; /* Increases shadow depth */
+}
+
 .card img{
 
-    height: 250px;
-    width: 100%; 
+    height: 230px;
+    width: 80%; 
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    /* margin: auto; */
+    margin-left: 10%;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* align-items: center;
+     */
+     /* margin: 0px auto; */
+
+    
+    
+    /* border: 2px blue solid; */
+
 
 }
 .cardname{
     /* font-size:; */
     font-weight: 500;
+    height: 20px;
+    overflow: hidden;
+    padding: 0px 10px ;
+    margin-top: 10px;
+    /* border: 2px red solid; */
 }
 
 .cardlastrow{
@@ -115,12 +156,21 @@ right: 5px;
     align-items: center;
     justify-content: space-between;
     /* border: 2px blue solid; */
+    padding: 0px 10px ;
+    margin-top: 5px;
 }
 
 .cardabout{
     display: flex;
     font-size: 12px;
     /* border: 2px red solid; */
+    height: 20px;
+    width: 80%;
+    overflow: hidden;
+    color:#888792;
+    ;
+   
+
 }
 
 @keyframes popUp {
@@ -138,7 +188,7 @@ right: 5px;
   .heart {
       height: 20px;
       cursor: pointer;
-      margin-top: -2px;
+      margin-top: -6px;
   }
   
   .whiteheart, .redheart {
@@ -155,17 +205,36 @@ right: 5px;
       height: 13px;
       width: 13px;
   }
-  
-@media(max-width:520px){
 
-    .card{
-
-    width: 200px;
-    
+  .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 50px auto;
+    /* margin-top: 50px; */
 }
 
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
 
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
+  
+@media(max-width:529px){
+    .card{
+    width: 200px;   
+}
 }
 @media(max-width:500px){
     .itemsnumber{
@@ -173,19 +242,26 @@ right: 5px;
     }
     .filterbutton{
         margin-left: 0px;
-    
     }
-
-
 }
 @media(max-width:427px){
-
     .card{
-
     max-width: 170px;
     height: 330px;
 }
+}
+@media(max-width:368px){
+    .card{
+    max-width: 300px;
+    /* height: 350px; */
+}
+.rightpartcards{
 
 
+  
+    justify-content: center;
 
+  
+
+}
 }

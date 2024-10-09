@@ -3,6 +3,7 @@
    background-color: black;
    color: white;
    padding: 0px 50px;
+   /* border: 2px red solid; */
 
 
 
@@ -10,27 +11,40 @@
 .footerTop{
     display: flex;
     padding-top: 30px;
-    /* border: 2px red solid; */
+    /* border: 2px green solid; */
     border-bottom: 2px rgb(184, 181, 181) solid;
 }
 
 .topFooterLeftSide{
     width: 70%;
+   /* border: 2px red solid; */
+
+    
+
 }
 .tf2{
     font-size: 13px;
+   /* border: 2px red solid; */
+
 
 }
 .SearchInFooter{
     display: flex;
     margin-top:30px;
+    /* border: 2px red solid; */
+    /* flex-wrap: wrap; */
     
 }
 .inputinfoooter input{
     padding: 8px 35px;
+   /* border: 2px red solid; */
+
 }
 .buttoninFooter{
     margin-left: 10px;
+   /* border: 2px red solid; */
+
+
 
 
 }
@@ -39,28 +53,40 @@
     color: white;
     padding: 8px 35px;
     border: 1px rgb(100, 100, 100) solid;
+   /* border: 2px red solid; */
+
 }
 
 .topFooterRightSide p{
     font-size: 15px;
     font-weight: 100;
+    /* border: 2px red solid; */
 }
 .topFooterRightSide .contacatusinfooter {
     font-weight:700;
     /* z-index: 1; */
+   /* border: 2px red solid; */
+
 }
 .topFooterRightSide  .currensyinfooter{
     font-weight:700;
+
+   /* border: 2px red solid; */
 
 }
 .topFooterRightSide  .usdinfooter{
     display: flex;
     align-items: center;
+   /* border: 2px red solid; */
+
 }
 .topFooterRightSide  .usdinfooter img{
     height: 30px;
     width:60px;
+
     border-radius: 20px;
+   /* border: 2px red solid; */
+
 }
 .topFooterRightSide  .usdinfooter .usdinTopFooterRightSide{
     margin-top: -5px;
@@ -69,6 +95,8 @@
 
 .topFooterRightSide  .aboutTransactionInFooter{
     font-size: 12px;
+   /* border: 2px red solid; */
+
 }
 
 .footerBottom{
@@ -76,6 +104,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* -right: 20px; */
 }
 .bottomfutterboldline{
     font-weight: 600;
@@ -83,12 +112,14 @@
     z-index: 1;
     padding-bottom: 15px;
     /* padding-top: 50px; */
-
-
-  
+   /* border: 2px red solid; */
+   /* width: 80%;   */
 }
+
 .bottomfutterdownarrow{
     display: none;
+   /* border: 2px red solid; */
+
 }
 
 .leftinbottomfooter{
@@ -130,6 +161,7 @@
     position: relative;
     top: -25px;
     left: -37px;
+    
 }
 .lastinbottomfooter p{
     /* border: 2px red solid; */
@@ -143,10 +175,21 @@
     margin: 0px 3px;
     background-color: white;
     border-radius: 7px;
+    /* flex-wrap: wrap; */
+
+}
+.lastinbottomfooter .trans_images{
+    /* border: 2px red solid; */
+    flex-wrap: wrap;
+    /* min-height: 100px; */
+    /* height: 100px; */
+    
 
 }
 .lastinbottomfooter  .bottomfootericons{
     display: flex;
+    /* border: 2px red solid; */
+
    
 
 }
@@ -160,11 +203,15 @@
     font-size: 20px;
     padding-top: 5px;
     margin-right: 7PX;
+    /* border: 2px red solid; */
+
    
 }
 
 .copyrightfooter {
+    /* border: 2px red solid; */
     text-align: center;
+    padding: 0px 15px;
 }
 @media(max-width:978px){
     .inputinfoooter input{
@@ -213,9 +260,6 @@
         margin-left: 50px;
     }
 
-
-
-
 }
 @media(max-width:758px){
     
@@ -230,6 +274,7 @@
     }
     .buttoninFooter{
         margin-left: 10px;
+        
     
     }
     .buttoninFooter  button{
@@ -242,6 +287,8 @@
         flex-direction: column;
         /* border: 2px red solid; */
         align-items: flex-start;
+        /* border: 5px blue solid; */
+        width: 80%;
        
 
     }  
@@ -260,6 +307,9 @@
      .footer{
         padding: 0px 0px 0px 10px;
     }
+    .footerTop{
+        width: 80%;
+    }
    .topFooterRightSide .custmermail{
     
         position: relative;
@@ -272,6 +322,8 @@
     .currensyinfooter{
         padding-top: 15px;
         border-top:1px rgb(193, 192, 192) solid ;
+        /* border: 5px green solid; */
+        /* width: 80%; */
     }
     .aboutTransactionInFooter{
         display: none;
@@ -289,9 +341,75 @@
     }
     .resinfooter{
         border-bottom:1px rgb(193, 192, 192) solid ;
+        /* width: 80%; */
 
     }
     .lastinbottomfooter img{
         /* border: 2px red solid; */
+    }
+    
+}
+@media (max-width:376px) {
+
+    .lastinbottomfooter .trans_images{
+        /* border: 2px red solid; */
+        flex-wrap: wrap;
+        /* min-height: 100px; */
+        /* height: 100px; */
+        /* min-width: 60%; */
+        /* padding: 0px 40px; */
+    
+    }
+    /* height: ; */
+
+}
+
+
+@media (max-width: 376px) {
+    .bottomfutterboldlineFollowUs{
+        width: 50%;
+    }
+    .SearchInFooter{
+        flex-wrap: wrap;
+        /* padding: 10px 0px; */
+    }
+    .SearchInFooter{
+        /* display: flex; */
+        /* flex-direction: column; */
+        margin-top:30px;
+        /* border: 2px red solid; */
+        /* flex-wrap: wrap; */
+        
+    }
+    .inputinfoooter input{
+        /* padding: 8px 35px; */
+       /* border: 2px red solid; */
+       margin-bottom:20px;
+    
+    }
+    .buttoninFooter{
+        margin-left: 0px;
+       /* border: 2px red solid; */
+    
+    
+    
+    
+    }
+   
+
+    /* .lastinbottomfooter img {
+        width: 30px; 
+    }
+
+    .bottomfootericons p {
+        height: 20px; 
+        width: 20px; 
+        font-size: 14px; 
+    } */
+    .lastinbottomfooter{
+        
+        width: 100%;
+       
+        
     }
 }

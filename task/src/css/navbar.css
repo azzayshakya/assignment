@@ -3,6 +3,7 @@
     /* align-items: center; */
     justify-content: space-between;
     margin-top: 30px;
+    /* border: 2px red solid; */
 
 
 }
@@ -11,7 +12,7 @@
     align-items: center;
 }
 .navicon{
-    /* margin-left: 7%; */
+    /* margin-left:7%; */
     font-size: 25px;
 
 }

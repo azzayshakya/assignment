@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="topFooterRightSide">
                 <p className='contacatusinfooter'>CONTACT US</p>
                 <p>+44 212 321 2211</p>
-                <p className='custmermail'>customer2@mettamuse.com</p>
+                {/* <p className='custmermail'>customer2@mettamuse.com</p> */}
                 <p className='currensyinfooter'>CURRENCY</p>
                 <p className='usdinfooter'><div className="flag"><img src={usaflag} alt="" /></div><div className="dot"><LuDot/></div><div className='usdinTopFooterRightSide'>USD</div></p>
                 <p className='aboutTransactionInFooter'>Transactions will be completed in Euros and a currency reference is available on hover.</p>
@@ -74,18 +74,20 @@ const Footer = () => {
         </div>
 
         <div className="lastinbottomfooter">
-            <p className='bottomfutterboldline'>FOLLOW US</p>
+            <p className='bottomfutterboldline bottomfutterboldlineFollowUs'>FOLLOW US</p>
             <p className='bottomfootericons'>
                 <p><MdCameraAlt/></p> 
                  <p><FaLinkedin/></p>
             </p>
             <p>metta musse ACCEPTS</p>
-            <p><img src={gpay} alt="" />
+            <p className='trans_images'>
+            <img src={gpay} alt="" />
             <img src={paypal} alt="" />
             <img src={mastercard} alt="" />
             <img src={upi} alt="" />
             <img src={applepay} alt="" />
-            <img src={razorpay} alt="" /></p>
+            <img src={razorpay} alt="" />
+            </p>
 
         </div>
         
