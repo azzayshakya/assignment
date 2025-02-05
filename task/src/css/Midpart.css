@@ -15,10 +15,14 @@
 }
 .filterbutton{
     margin-left: 15%;
-    /* border: 2px red solid; */   
+    /* border: 2px red solid;    */
     color: rgb(178, 179, 180);
     cursor: pointer;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: ; */
    
 
 }
@@ -28,6 +32,7 @@
     top:2px;
     right: 5px;
     /* border: 2px red solid; */
+    padding-top: 10px;
 }
 .RecommenedButton{
     /* border: 2px red solid; */

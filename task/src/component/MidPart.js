@@ -8,8 +8,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { FaCheck } from "react-icons/fa6";
 
 import '../css/Midpart.css';
-// Import images if you need them for other purposes or use images from the API
-// import redheart from "../images/red heart.png";
+
 import { IoIosHeart } from "react-icons/io";
 
 const MidPart = () => {
@@ -31,7 +30,7 @@ const MidPart = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             const allProducts = [];
-            for (let i = 1; i <= 16; i++) {  // Fetching 16 products
+            for (let i = 1; i <= 16; i++) { 
                 const response = await fetch(`https://fakestoreapi.com/products/${i}`);
                 const product = await response.json();
                 allProducts.push(product);
